@@ -1,0 +1,249 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	background: url("../img/header-bg.png") no-repeat;
+	background-size: cover;
+	background-color: #0b013c;
+}
+
+a, h1, h2, p {
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+}
+
+a{
+	text-decoration: none;
+}
+
+.whrapper{
+	min-width: 900px;
+	max-width: 1140px;
+	margin: 0 auto;
+	padding: 40px;
+}
+
+.whrapper_small{
+	width: 800px;
+	max-width: 1140px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.logo{
+	font-size:30px;
+	border: 2px solid #ffffff;
+	text-decoration: none;
+	padding: 2px;
+}
+
+.header_text{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size:100px;
+	margin-top: 150px;
+}
+
+h1{
+	font-size:25px;
+	margin-top: 40px;
+}
+
+.header_description{
+	width: 35%;
+	margin-top: 30px;
+	font-style: italic;
+	font-size: 17px;
+}
+
+.header{
+	padding-bottom: 190px;
+}
+
+header form{
+	margin-top: 45px;
+}
+
+header form input{
+	width: 360px;
+	height: 45px;
+	border:none;
+	box-shadow: inset 0px -19px 9px -13px rgba(173,172,177,1);
+	font-family: 'Roboto', sans-serif;
+}
+
+header form button{
+	cursor:pointer;
+	width: 110px;
+    height: 45px;
+    margin-left: 10px;
+    border: none;
+    background:#f8cb8a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+header form button:hover{
+	background:#f6bb66;
+}
+
+
+.container1{
+	background:#fefaf3;
+}
+
+h2{
+	font-size: 20px;
+	color:#0b013c;
+	margin-top: 40px;
+}
+
+.section_title{
+	font-size: 40px;
+	font-weight:700;
+	color:#0b013c;
+	margin:40px 0;
+	position: relative;
+}
+
+.section_title:before{
+	content: "";
+	display: block;
+	width: 125px;
+	height: 15px;
+	background:#f6bb66;
+	position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section_text{
+	font-size: 15px;
+	font-style: italic;
+	color:#808080;
+	line-height: 1.5;
+	padding: 20px 10px;
+}
+
+.section1{
+	text-align: center;
+	margin-bottom: 140px;
+}
+
+.section2{
+	background:#ffffff;
+	display: flex;
+	margin-bottom: 120px;
+}
+
+.section2 .section_title:before{
+	left:0;
+	transform: none;
+}
+
+.section2 div{
+	display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.section2 img{
+	width: 70%;
+}
+
+.section3{
+	display: flex;
+	justify-content: space-between;
+}
+
+.section3 div:first-child{
+	margin-right: 100px;
+}
+
+.section3 div{
+	background:#ffffff;
+}
+
+.section_img{
+	width: 100%;
+}
+
+.container2{
+	background: url("../img/space-bg.png") no-repeat;
+	background-size: cover;
+	background-color: #0b013c; 	
+}
+
+.article2 .section2_1 *{
+	color:#ffffff;
+}
+
+.section2_1{
+	padding: 100px 0;
+}
+
+
+
+footer{
+	background:url("../img/footer-bg.jpeg") no-repeat;
+	background-size: cover;
+	padding:100px 0;
+}
+
+.footer>p{
+	font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+address {
+	font-size: 16px;
+	line-height: 1.5;
+}
